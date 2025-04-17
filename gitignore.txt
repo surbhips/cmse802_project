@@ -1,0 +1,5 @@
+venc/
+__pyache__/
+
+#temporary data folder and its content
+**/.data/**
