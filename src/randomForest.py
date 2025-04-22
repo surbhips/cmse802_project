@@ -13,7 +13,7 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import cross_validate
 from sklearn.metrics import make_scorer, root_mean_squared_error, mean_absolute_error
 from sklearn.pipeline import Pipeline
-from preprocessing import build_preprocessing_pipeline
+from src.preprocessing import build_preprocessing_pipeline
 
 #function to train the random forest model
 def train_random_forest_pipeline(X, y, categorical_columns, numerical_columns, cv=5):
@@ -69,3 +69,5 @@ def train_random_forest_pipeline(X, y, categorical_columns, numerical_columns, c
     print(f"  MAE: {scores['test_mae'].mean():.4f} ± {scores['test_mae'].std():.4f}")
 
     return scores
+
+ #help from chatgpt

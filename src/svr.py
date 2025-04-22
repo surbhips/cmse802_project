@@ -16,7 +16,7 @@ from sklearn.preprocessing import OneHotEncoder
 from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
 from sklearn.model_selection import cross_validate
-from preprocessing import build_preprocessing_pipeline
+from src.preprocessing import build_preprocessing_pipeline
 from sklearn.metrics import r2_score, make_scorer, root_mean_squared_error, mean_absolute_error
 from sklearn.svm import SVR
 
@@ -66,3 +66,5 @@ def train_svr_model_pipeline(X, y, categorical_columns, numerical_columns, cv=5)
     print(f"  MAE:  {scores['test_mae'].mean():.4f} ± {scores['test_mae'].std():.4f}")
 
     return scores
+
+ #help from chatgpt

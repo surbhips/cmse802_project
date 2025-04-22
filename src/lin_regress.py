@@ -14,7 +14,7 @@ from sklearn.decomposition import PCA
 from sklearn.pipeline import Pipeline
 from sklearn.model_selection import cross_validate
 from sklearn.metrics import make_scorer, root_mean_squared_error, mean_absolute_error
-from preprocessing import build_preprocessing_pipeline
+from src.preprocessing import build_preprocessing_pipeline
 
 def train_linear_model_pipeline(X, y, categorical_columns, numerical_columns, cv=5):
     """
@@ -64,3 +64,5 @@ def train_linear_model_pipeline(X, y, categorical_columns, numerical_columns, cv
     print(f"  MAE:  {scores['test_mae'].mean():.4f} ± {scores['test_mae'].std():.4f}")
 
     return scores
+
+ #help from chatgpt

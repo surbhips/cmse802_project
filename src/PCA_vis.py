@@ -13,13 +13,13 @@ Date: 4/8/2025
 #import packages
 from sklearn.decomposition import PCA
 from sklearn.pipeline import Pipeline
-from preprocessing import build_preprocessing_pipeline
+from src.preprocessing import build_preprocessing_pipeline
 import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
 
 #define function to visualize PCA
-ddef visualize_pca_with_preprocessing(X, categorical_columns=None, numerical_columns=None, n_components=2, color_by=None):
+def visualize_pca_with_preprocessing(X, categorical_columns=None, numerical_columns=None, n_components=2, color_by=None):
     """
     Preprocess the data, perform PCA, and plot the first 2 principal components.
 
@@ -60,3 +60,5 @@ ddef visualize_pca_with_preprocessing(X, categorical_columns=None, numerical_col
     plt.grid(True)
     plt.tight_layout()
     plt.show()
+
+ #help from chatgpt
