@@ -1,4 +1,3 @@
 This directory contains the results for this project
-	- finalFigures.ipynb
-	- modelResults.ipynb
+	- Results.ipynb: this file contains the figures that were created for this project
 
