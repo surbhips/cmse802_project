@@ -16,6 +16,17 @@ Getting started:
     - Sklearn
     - Pandas
     - Matplotlib
+    - SHAP
+    - Itertools
+    - Install all the models and scoring methods:
+        - RandomForest
+        - Linear Regression
+        - SVR
+        - Decision Tree
+        - XGBoost
+        - R^2
+        - RMSE
+        - MAE
 All the packages above are needed to run the code in this project.
 
 Project:
