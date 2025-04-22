@@ -3,3 +3,4 @@ __pyache__/
 
 #temporary data folder and its content
 **/.data/**
+Data is not available for this project.
