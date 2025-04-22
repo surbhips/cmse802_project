@@ -3,7 +3,6 @@ This directory will contain jupyter notebooks for analysis and visualization for
 	-254EDA.ipynb
 	-365EDA.ipynb
 	-EDA.ipynb
-	-randomForest.ipynb
-	- Figures.ipynb
+    -analysis.ipynb
 
 
